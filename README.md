@@ -38,7 +38,7 @@ Open `/plugins` to check that the plugin is loaded. [Grok Build plugin docs](htt
 
 **Grok Bot**
 
-Give your Bot the public repository link and ask it to read the four skill files under `plugins/tech-job-apply/skills`. Start by asking it to test free, read-only discovery and save the workflow as a private skill. Application filling requires an authorized browser plus access to Python and the same private storage as your other appliers. If the Bot cannot access that shared storage, use it for discovery only. [Grok Bot private skills](https://docs.x.ai/grok-bot/skills-routines-and-automations)
+[Import the public Tech Job Apply Bot template](https://x.ai/bot/M43kZu1K1a7AYgLpDSH2E) to start with the four workflows and an onboarding skill. To add the workflows to an existing Bot, give your Bot the public repository link and ask it to read the four skill files under `plugins/tech-job-apply/skills`. Start by asking it to test free, read-only discovery and save the workflow as a private skill. Application filling requires an authorized browser plus access to Python and the same private storage as your other appliers. If the Bot cannot access that shared storage, use it for discovery only. [Grok Bot private skills](https://docs.x.ai/grok-bot/skills-routines-and-automations)
 
 ## Set up and use
 
