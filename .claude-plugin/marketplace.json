@@ -1,0 +1,12 @@
+{
+  "name": "tech-job-apply-local",
+  "owner": {
+    "name": "Tech Job Apply"
+  },
+  "plugins": [
+    {
+      "name": "tech-job-apply",
+      "source": "./plugins/tech-job-apply"
+    }
+  ]
+}
