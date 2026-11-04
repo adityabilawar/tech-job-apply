@@ -55,6 +55,4 @@ Your profile, preferences, and log stay in `~/.tech-job-apply` by default. Keep 
 - Unsupervised mass submission or automatic retries of ambiguous submissions.
 - Captcha solving or coding tests without explicit approval.
 - Inventing experience, qualifications, or application answers.
-- Posting to Product Hunt, Hacker News, or social media.
 
-The browser workflow stops for review and requires explicit authorization before the final click. Only a verified confirmation page advances an application to submitted.
