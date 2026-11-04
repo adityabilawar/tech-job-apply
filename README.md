@@ -58,9 +58,11 @@ Your profile, preferences, and log stay in `~/.tech-job-apply` by default. Keep 
 
 ## Submission modes
 
-Review-first is the default. To opt in for this run, name the exact requisitions and approve the attachments. For example, “Automatically submit the applications at these two official URLs in this run using my confirmed resume and saved answers. Pause if anything needs my input.”
+**Review-first remains the default.** To opt in to automatic submission, authorize an exact job or fixed shortlist for the current run and confirm the resume and attachments. For example:
 
-Automatic mode checks that each job and attachment matches the authorization and all answers are confirmed. New questions, inferred answers, new consent, captchas, and host-required approvals still pause the workflow. Applications run one at a time. Only a verified confirmation page advances an application to submitted. An ambiguous result stops the run and requires reconciliation before any further application.
+> Automatically submit the applications at these two official URLs in this run using my confirmed resume and saved answers. Pause if anything needs my input.
+
+The plugin pauses for inferred answers, new consent, and required handoffs. An ambiguous result stops the run without retrying. No applications were submitted as part of this update.
 
 ### Updating
 
