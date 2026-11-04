@@ -1,6 +1,6 @@
 # Tech Job Apply
 
-Discover US tech internships and new-grad roles, prepare one application at a time, and review the form before submission. Both hosts use the same four [Agent Skills](https://agentskills.io/specification) and local application history.
+Discover US tech internships and new-grad roles, prepare one application at a time, with review-first or opt-in automatic submission. Supported hosts use the same four [Agent Skills](https://agentskills.io/specification) and local application history.
 
 ## Install
 
@@ -56,3 +56,12 @@ Your profile, preferences, and log stay in `~/.tech-job-apply` by default. Keep 
 - Captcha solving or coding tests without explicit approval.
 - Inventing experience, qualifications, or application answers.
 
+## Submission modes
+
+Review-first is the default. To opt in for this run, name the exact requisitions and approve the attachments. For example, “Automatically submit the applications at these two official URLs in this run using my confirmed resume and saved answers. Pause if anything needs my input.”
+
+Automatic mode checks that each job and attachment matches the authorization and all answers are confirmed. New questions, inferred answers, new consent, captchas, and host-required approvals still pause the workflow. Applications run one at a time. Only a verified confirmation page advances an application to submitted. An ambiguous result stops the run and requires reconciliation before any further application.
+
+### Updating
+
+Refresh the marketplace and reload the plugin in your host. For Grok Build's direct-load method, pull the latest checkout and restart Grok Build. For Grok Bot, refresh existing private skills from this repository and keep automatic submission disabled until a user explicitly authorizes a run.
